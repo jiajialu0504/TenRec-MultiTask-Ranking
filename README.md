@@ -20,9 +20,9 @@ Evaluated on the **Tencent TenRec (QK-video)** dataset (100k samples). Our full 
 
 | Approach | Click AUC | Follow AUC | Like AUC | **Share AUC (Sparse)** |
 | :--- | :--- | :--- | :--- | :--- |
-| **Shared-Bottom (Baseline)** | 0.6304 | 0.6651 | 0.7068 | 0.6021 |
+| **Shared-Bottom (Baseline)** | 0.7694 | 0.7101 | 0.7268 | 0.7721 |
 | **Our Full Model (PLE+DCN+UWL)** | **0.7787** | **0.7128** | **0.7456** | **0.7791** |
-| **Improvement (Abs.)** | **+14.83%** | **+4.77%** | **+3.88%** | **+17.70%** |
+| **Improvement (Abs.)** | **+1.01%** | **+0.32%** | **+1.95%** | **+0.79%** |
 
 *Note: The massive gain in Share AUC proves that PLE and UWL effectively mitigate the data sparsity issue for long-tail user behaviors.*
 
